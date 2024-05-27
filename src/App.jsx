@@ -1,11 +1,11 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Index from "./pages/Index.jsx";
+import Events from "./pages/Events.jsx";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Index />} />
+        <Route exact path="/" element={<Events />} />
       </Routes>
     </Router>
   );
